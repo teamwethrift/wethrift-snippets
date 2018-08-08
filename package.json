@@ -1,6 +1,6 @@
 {
   "name": "wethrift-snippets",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Snippets used by the team while building Wethrift.com",
   "homepage": "https://www.wethrift.com",
   "repository": {
@@ -13,5 +13,14 @@
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0"
-  }
+  },
+  "keywords": [
+    "atom",
+    "snippets",
+    "javascript",
+    "handlebars",
+    "scss",
+    "sass",
+    "node"
+  ]
 }
