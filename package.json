@@ -1,6 +1,6 @@
 {
   "name": "wethrift-snippets",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "An expanding collecton of Javascript, Handlebars, and SCSS snippets used by the team while building Wethrift.com",
   "homepage": "https://www.wethrift.com",
   "repository": {
