@@ -1,0 +1,17 @@
+{
+  "name": "wethrift-snippets",
+  "version": "0.0.0",
+  "description": "Snippets used by the team while building Wethrift.com",
+  "homepage": "https://www.wethrift.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teamwethrift/wethrift-snippets"
+  },
+  "bugs": {
+    "url": "https://github.com/teamwethrift/wethrift-snippets/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0"
+  }
+}

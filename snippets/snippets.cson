@@ -1,0 +1,56 @@
+'.source.js':
+  'new promise':
+    'prefix': 'newprom'
+    'body': """new Promise((resolve, reject) => {
+        $1
+      })
+    """
+  'de-duplicate array':
+    'prefix': 'dedup'
+    'body': 'Array.from(new Set($1))'
+  'import (export, module-name)':
+    'prefix': 'import'
+    'body': """import { $1 } from '$2'"""
+    'prefix': 'module'
+    'body': """const $1 = ($2) => {
+      $3
+    }
+    export {
+      $1
+    }"""
+  'request':
+    'prefix': 'request'
+    'body': """request({url: '$1' }, function (error, response, body) {
+      $2
+    })"""
+  'foreach':
+    'prefix': 'foreach'
+    'body': """forEach($1 => {
+        $2
+      })"""
+
+'.source.handlebars':
+  'if':
+    'prefix': 'if'
+    'body': """{{#if $1}}
+      $2
+    {{/if}}"""
+  'if else':
+    'prefix': 'ifelse'
+    'body': """{{#if $1}}
+      $2
+    {{else}}
+      $3
+    {{/if}}"""
+  'each':
+    'prefix': 'each'
+    'body': """{{#each $1}}
+      $2
+    {{/each}}"""
+
+'.source.scss, .source.css':
+  'media query':
+    'prefix': 'media'
+    'body': """@media (max-width: $1) {
+      $2
+    }"""
