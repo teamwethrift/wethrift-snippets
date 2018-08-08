@@ -11,6 +11,7 @@
   'import (export, module-name)':
     'prefix': 'import'
     'body': """import { $1 } from '$2'"""
+  'module (functionName, params)':
     'prefix': 'module'
     'body': """const $1 = ($2) => {
       $3
