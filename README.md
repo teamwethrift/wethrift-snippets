@@ -1,5 +1,5 @@
 # Wethrift-snippets
-A small collection of Javascript, SCSS, and Handlebars snippets used by the team building [Wethrift.com](https://www.wethrift.com) and [Searchmy.bio](https://www.searchmy.bio).
+A small collection of Javascript, SCSS, and Handlebars snippets used by the team building [Wethrift.com](https://www.wethrift.com).
 
 - [Wethrift on GitHub](https://github.com/wethrift)
 - [Atom.io package](https://atom.io/packages/wethrift-snippets)
